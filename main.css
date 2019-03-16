@@ -7,11 +7,6 @@ a{
     width: 800px;
     height: 200px;
 }
-#score{
-    position: fixed;
-    top: 1em;
-    right: 1em;
-}
 button{
     border: 1px solid black;
     padding: 20px 50px;
@@ -19,6 +14,8 @@ button{
     margin: 20px;
     font-size: 20px;
     color: white;
+    border-radius: 50px;
+    font-family: 'Comfortaa', cursive; 
 }
 div{
     text-align: center;

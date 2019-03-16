@@ -14,7 +14,7 @@ var myQuestions = [
         correctAnswer: "B"
     },
     {
-        question: "Which Planet is the Coldest",
+        question: "Which Planet is the Coldest?",
         answers: {
             A: "Neptune",
             B: "Mercury",
@@ -24,7 +24,17 @@ var myQuestions = [
         correctAnswer: "A"
     },
     {
-        question
+        question: "What is the 6th Planet From the Sun?",
+        answers: {
+            A: "Mars",
+            B: "Saturn",
+            C: "Jupiter",
+            D: "Uranus"
+        },
+        correctAnswer: "Uranus"
+    },
+    {
+        question: ""
     }
 ]
 

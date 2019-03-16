@@ -2,20 +2,27 @@ var value = 0;
 
 document.getElementById('score').innerText = ('Score: ' + value);
 
-var quizContainer = document.getElementById('quiz');
-var resultsContainer = document.getElementById('answers');
-var submitButton = document.getElementById('submit');
 
 var myQuestions = [
     {
-        questions: "What is Chlorophyll?",
+        question: "What is Chlorophyll?",
         answers: {
             A: 'Green pigment in plants that absorbs light energy used to carry out photosynthesis',
             B: 'Chlorine Cells',
             C: 'The process by which cells obtain energy from glucose',
             D: 'Growth of a plant away from light'
-
-        }
+        },
+        correctAnswer: "A"
+    },
+    {
+        question: "What is photosynthesis?",
+        answers: {
+            A: 'Green PIgment in plants which absorbs light energy used to create sugars and energy',
+            B: 'Process by which plants and some other organisms use light energy to covert water and carbon dioxide into glucose(sugars) and oxygen',
+            C: 'The process by which plants release vapor into the air through stomata',
+            D: 'When the organism’s growth stops'
+        },
+        correctAnswer: "B"
     }
 ]
 
@@ -109,5 +116,9 @@ function showResults(questions, quizContainer, resultsContainer){
 submitButton.onclick = function(){
 	showResults(questions, quizContainer, resultsContainer);
 }
+
+var quizContainer = document.getElementById('quiz');
+var resultsContainer = document.getElementById('answers');
+var submitButton = document.getElementById('submit');
 
 generateQuiz(myQuestions, quizContainer, resultsContainer, submitButton);

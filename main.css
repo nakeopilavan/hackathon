@@ -15,10 +15,14 @@ a{
 button{
     border: 1px solid black;
     padding: 20px 50px;
-    background-color: lightblue;
+    background-color: cyan;
     margin: 20px;
-    
+
 }
 div{
     text-align: center;
+}
+body{
+    background-color: black;
+    color: white;
 }
